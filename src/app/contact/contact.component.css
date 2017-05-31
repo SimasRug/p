@@ -1,14 +1,23 @@
 img {
-    width: 200px;
+    width: 100px;
     z-index: 1;
 }
 .facebook, .twitter, .instagram, .linkedin, .github, .email {
       cursor: pointer;
+
+}
+.facebook img {
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 .facebook {
+
     background-color: #3B5998
 }
 .facebook:hover {
+    z-index: 1;
     background-color: #2d4373
 }
 .twitter {
@@ -30,11 +39,11 @@ img {
     background-color: #395d90;
 }
 .github {
-    background-color: grey; 
+    background-color: grey;
     /*Change this*/
 }
 .github:hover {
-    background-color: black; 
+    background-color: black;
     /*Change this*/
 }
 .email {
