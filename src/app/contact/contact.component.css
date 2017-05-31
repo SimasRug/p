@@ -1,0 +1,47 @@
+img {
+    width: 200px;
+    z-index: 1;
+}
+.facebook, .twitter, .instagram, .linkedin, .github, .email {
+      cursor: pointer;
+}
+.facebook {
+    background-color: #3B5998
+}
+.facebook:hover {
+    background-color: #2d4373
+}
+.twitter {
+    background-color: #4099FF;
+}
+.twitter:hover {
+    background-color: #0d7eff;
+}
+.instagram {
+    background-color: #f4420a;
+}
+.instagram:hover {
+    background-color: #c33508;
+}
+.linkedin {
+    background-color: #4875b4;
+}
+.linkedin:hover {
+    background-color: #395d90;
+}
+.github {
+    background-color: grey; 
+    /*Change this*/
+}
+.github:hover {
+    background-color: black; 
+    /*Change this*/
+}
+.email {
+    background-color: red;
+    /*Also change this*/
+}
+.email:hover {
+    background-color: orange;
+    /*Also change this*/
+}

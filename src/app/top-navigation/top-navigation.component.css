@@ -16,8 +16,7 @@ nav {
   margin-left: 20px;
 
 }
-.nav-item a:hover {
-}
+
 .nav-item a:before {
   content: "";
   position: absolute;

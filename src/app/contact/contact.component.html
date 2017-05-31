@@ -1,0 +1,5 @@
+<div class="row">
+    <div *ngFor="let item of items" class="text-center hvr-grow col col-sm-6 col-md-4 col-lg-4 col-xl-4" (click)="onclick(item.link)" [ngClass]="item.class">
+      <img [src]="item.img" class="my-5">
+    </div>
+  </div>
