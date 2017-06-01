@@ -1,3 +1,33 @@
-<p>
-  about works!
-</p>
+<div class="row mt-5">
+  <div class="col  col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5 text-center socialIcons ">
+    <img src="../../assets/img/temp-logo.png" alt="">
+    <ul class="text-center mt-5">
+      <li *ngFor="let socialIcon of socialIcons" (click)=onclick(socialIcon.link)> 
+          <img [src]="socialIcon.img" alt="" class="hvr-grow">
+        </li>
+    </ul>
+  </div>
+  <div class="col col-12 col-sm-12 col-md-7 col-lg-7 col-xl-7 px-5">
+    <h1>About</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis non sint inventore molestias! Quia ea, aliquam dignissimos atque sint tempora veritatis assumenda odio deleniti eveniet. Esse eum fugiat, autem tempore.</p>
+  </div>
+</div>
+<div class="row mt-5">
+  <div class="col col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5 px-5">
+     <h1>Education</h1>
+     <ul>
+       <li>Test</li>
+       <li>Test</li>
+       <li>Test</li>
+     </ul>
+  </div>
+  <div class="col col-12 col-sm-12 col-md-7 7col-lg-7 col-xl-7 px-5">
+    <h1>Levels of Awesomnes</h1>
+    <h4> {{test}} , {{testOne}} </h4>
+    <div class="progress">
+      <div class="progress-bar" role="progressbar" [ngStyle]="{'width': testOne, 'background-color':'red' }" aria-valuemin="0" aria-valuemax="100"></div>
+    </div>
+  </div>
+</div>
+
+

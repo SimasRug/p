@@ -1,20 +1,18 @@
 img {
     width: 100px;
     z-index: 1;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%); 
 }
 .facebook, .twitter, .instagram, .linkedin, .github, .email {
       cursor: pointer;
 
 }
-.facebook img {
-  position: fixed;
-  top: 40%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
+
 .facebook {
 
-    background-color: #3B5998
+    background-color: #3B5998;
 }
 .facebook:hover {
     z-index: 1;
@@ -24,18 +22,21 @@ img {
     background-color: #4099FF;
 }
 .twitter:hover {
+    z-index: 1;
     background-color: #0d7eff;
 }
 .instagram {
     background-color: #f4420a;
 }
 .instagram:hover {
+    z-index: 1;
     background-color: #c33508;
 }
 .linkedin {
     background-color: #4875b4;
 }
 .linkedin:hover {
+    z-index: 1;
     background-color: #395d90;
 }
 .github {
@@ -43,6 +44,7 @@ img {
     /*Change this*/
 }
 .github:hover {
+    z-index: 1;
     background-color: black;
     /*Change this*/
 }
@@ -51,6 +53,7 @@ img {
     /*Also change this*/
 }
 .email:hover {
+    z-index: 1;
     background-color: orange;
     /*Also change this*/
 }

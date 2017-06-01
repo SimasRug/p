@@ -1,5 +1,10 @@
 <div class="row">
-    <div [style.height.px]="innerHalfHeight" *ngFor="let item of items" class="hvr-grow col col-sm-12 col-md-12 col-lg-4 col-xl-4" (click)="onclick(item.link)" [ngClass]="item.class" >
-      <img [src]="item.img" class="my-5">
+    <div [style.height.px]="innerHalfHeight" *ngFor="let firstItem of firstItems" class=" text-center  col col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 hvr-grow " (click)="onclick(firstItem.link)" [ngClass]="firstItem.class" >
+      <img [src]="firstItem.img" class="">
+    </div>
+  </div>
+  <div class="row">
+    <div [style.height.px]="innerHalfHeight" *ngFor="let secondItem of secondItems" class=" text-center col col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 hvr-grow " (click)="onclick(secondItem.link)" [ngClass]="secondItem.class" >
+      <img [src]="secondItem.img" class="">
     </div>
   </div>

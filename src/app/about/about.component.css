@@ -1,0 +1,36 @@
+div {
+    color: #fff;
+}
+p {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+img {
+    width: 200px;
+}
+ul {
+    padding-left: 0px;
+    list-style-type: none;
+}
+.socialIcons ul li {
+    display: inline;
+    padding-left: 5px;
+    padding-right: 5px;
+    cursor: pointer;
+}
+ul li img {
+    width:30px;
+}
+.hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+}
+.progress {
+    background-color: #fff;
+}
+.progress-bar{
+    transition: background-color 0.5s ease;
+    background-color: #fff;
+}
+
+/*******************************************************************************/
