@@ -1,12 +1,15 @@
 h1 {
   color:#fff;
 }
-/*img {
-  width: 200px;
-}*/
-.col {
-  background-color: transparent;
+img {
+  width: 256px;
+  /*height: 180px;*/
 }
-.carousel-inner > .item > img {
-    margin: 0 auto;
+.card-group {
+  color:#fff;
+}
+.card {
+  background-color: transparent;
+  /*border-color: #fff;*/
+  border: none;
 }

@@ -1,18 +1,22 @@
 import { Router } from '@angular/router';
 import { Component, OnInit } from '@angular/core';
+import { trigger,state,style,transition,animate,keyframes } from '@angular/animations';
 
 
 @Component({
   selector: 'app-home-content',
   templateUrl: './home-content.component.html',
-  styleUrls: ['./home-content.component.css']
+  styleUrls: ['./home-content.component.css'],
 })
 export class HomeContentComponent implements OnInit {
 
+  test: boolean = false;
+  test1: boolean = true
+
   items = [
-    {title:'About', link: '/about', img:"../../assets/img/temp-logo.png", class:'about'},
-    {title:'Work', link: '/projects', img:'../../assets/img/temp-logo.png', class:'work'},
-    {title:'Contact', link: '/contact', img:'../../assets/img/temp-logo.png', class:'contact'}];
+    {title:'About', link: '/about', img:"../../assets/img/about.png", class:'about'},
+    {title:'Projects', link: '/projects', img:'../../assets/img/work.png', class:'work'},
+    {title:'Contact', link: '/contact', img:'../../assets/img/contact.png', class:'contact'}];
   constructor(public router: Router) { }
 
   ngOnInit() {
@@ -20,5 +24,14 @@ export class HomeContentComponent implements OnInit {
   onclick(route: string) {
      this.router.navigate([route]);
   }
+
+   mouseOn(){
+     this.test = true;
+     this.test1 = false;
+   }
+    mouseOff(){
+     this.test = false;
+     this.test1 = true;
+   }
 
 }
