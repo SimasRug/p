@@ -1,0 +1,12 @@
+h1 {
+  color:#fff;
+}
+/*img {
+  width: 200px;
+}*/
+.col {
+  background-color: transparent;
+}
+.carousel-inner > .item > img {
+    margin: 0 auto;
+}

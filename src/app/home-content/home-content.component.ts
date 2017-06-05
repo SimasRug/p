@@ -11,7 +11,7 @@ export class HomeContentComponent implements OnInit {
 
   items = [
     {title:'About', link: '/about', img:"../../assets/img/temp-logo.png", class:'about'},
-    {title:'Work', link: '/work', img:'../../assets/img/temp-logo.png', class:'work'},
+    {title:'Work', link: '/projects', img:'../../assets/img/temp-logo.png', class:'work'},
     {title:'Contact', link: '/contact', img:'../../assets/img/temp-logo.png', class:'contact'}];
   constructor(public router: Router) { }
 
