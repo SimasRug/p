@@ -1,8 +1,8 @@
 <h1 class="px-4 py-4">Code</h1>
 <div class="row px-4">
   <div class="card-group ">
-    <div class="card" *ngFor="let design of projects.code">
-        <img class="card-img-top" src="..." alt="Card image cap" (click)="onClick()">
+    <div class="card hvr-grow" *ngFor="let design of projects.code">
+        <img class="card-img-top" [src]="design.img" alt="Card image cap" (click)="onClick()">
       <div class="card-block">
         <h4 class="card-title"> {{design.title}} </h4>
         <p class="card-text"> {{design.description}} </p>
@@ -49,5 +49,3 @@
     </div>
   </div>
 </div>
-
-

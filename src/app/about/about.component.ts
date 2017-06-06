@@ -16,6 +16,7 @@ export class AboutComponent implements OnInit, AfterViewInit {
   ]
   about = {
     description:'Awesome coder even more awesome person. Frontend developer, who’s making the world better one code line at a time. Plays nice with others, very positive. Incredibly energetic, hardworking, radiates hustle and initiative.',
+    description2:'A Frontend developer. Very skilled in JavaScript, AngularJS, Angular, Ionic and Ionic2, has some experience with NOSQL databases. To learn React and other JavaScript frameworks are plans for the near future.',
     education: [
       { school:'Kaunas University of Applied Science', subject:'Multimedia Technology', time:'September 2012 - June 2015' },
       { school:'Lillebaelt Academy', subject:'Multimedia design and communication', time:'January 2014 - December 2014' },

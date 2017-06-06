@@ -1,6 +1,6 @@
 <div class="row mt-5">
   <div class="col  col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5 socialIcons px-5 text-center" >
-    <img id="profile" src="../../assets/img/profile.jpg" alt="">
+    <img id="profile" src="../../assets/img/portfolioFull.png" alt="">
     <ul class="mt-5">
       <li *ngFor="let socialIcon of socialIcons" (click)=onclick(socialIcon.link)>
           <img [src]="socialIcon.img" alt="" class="hvr-grow">
@@ -10,6 +10,7 @@
   <div class="col col-12 col-sm-12 col-md-7 col-lg-7 col-xl-7 px-5">
     <h1>About</h1>
     <p class="about">{{about.description}}</p>
+    <p class="about">{{about.description2}}</p>
   </div>
 </div>
 <div class="row mt-5">

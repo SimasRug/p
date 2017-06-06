@@ -21,20 +21,20 @@ export class ProjectsComponent implements OnInit {
     video: '../../assets/img/video.png',
     test: '../../assets/img/test.jpg'
   };
-  
+
   projects = {
     code:[
-       { title:'Calculator', description:'A calculator application made with Angular 1', img:'' },
-       { title:'Pomodoro Clock', description:'Pomodoro clock application developed with Angular 1', img:'' },
-       { title:'Tic Tac Toe', description:'Tic Tac Toe game where you play against AI made with Angular 1', img:'' },
-       { title:'Driving Game', description:'A top down driving game developed using pure Javascript and HTML Canvas', img:'' },
-       { title:'Weather Application', description:'An application that shows the weather in your current area, made by using weather and location Api\'s and jquery', img:'' },
-       { title:'Wikipedia Reader', description:'A application that lets you search for Wikipedia articles, developed with wikipedia Api and jquery', img:'' },
-       { title:'Ping Pong', description:'A classic ping pong game made with pure Javascript and HTML Canvas', img:'' },
-       { title:'Brick Breaker', description:'Another classic game developed with HTML Canvas and Javascript', img:'' },
-       { title:'E-Shop', description:'A school project, usign Wordpress and various plugins a E-shop was developed', img:'' },
-       { title:'Bleeper', description:'A school project, made a twitter copy usign jquery', img:'' },
-       { title:'Drone Prject', description:'A school project for DOM manipulation usifn jquery', img:'' },
+       { title:'Calculator', description:'A calculator application made with Angular 1', img:'../assets/img/projects/code/calculator.png' },
+       { title:'Pomodoro Clock', description:'Pomodoro clock application developed with Angular 1', img:'../assets/img/projects/code/pomodoro.png' },
+       { title:'Tic Tac Toe', description:'Tic Tac Toe game where you play against AI made with Angular 1', img:'../assets/img/projects/code/tictac.png' },
+       { title:'Driving Game', description:'A top down driving game developed using pure Javascript and HTML Canvas', img:'../assets/img/projects/code/driving.png' },
+       { title:'Weather Application', description:'An application that shows the weather in your current area, made by using weather and location Api\'s and jquery', img:'../assets/img/projects/code/weather.png' },
+       { title:'Wikipedia Reader', description:'A application that lets you search for Wikipedia articles, developed with wikipedia Api and jquery', img:'../assets/img/projects/code/' },
+       { title:'Ping Pong', description:'A classic ping pong game made with pure Javascript and HTML Canvas', img:'../assets/img/projects/code/' },
+       { title:'Brick Breaker', description:'Another classic game developed with HTML Canvas and Javascript', img:'../assets/img/projects/code/' },
+       { title:'E-Shop', description:'A school project, usign Wordpress and various plugins a E-shop was developed', img:'../assets/img/projects/code/' },
+       { title:'Bleeper', description:'A school project, made a twitter copy usign jquery', img:'../assets/img/projects/code/c' },
+       { title:'Drone Prject', description:'A school project for DOM manipulation usifn jquery', img:'../assets/img/projects/code/' },
     ],
     designs: [
       { title:'Yeti', description:'A drawing of a yeti using Adobe Illiustrator', img:'../../assets/img/projects/design/yeti.png' },
