@@ -7,9 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TopNavigationComponent implements OnInit {
 
+  element = document.getElementById("toggleButton");
   constructor() { }
 
   ngOnInit() {
   }
-
 }

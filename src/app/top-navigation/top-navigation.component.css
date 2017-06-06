@@ -36,3 +36,6 @@ nav {
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
 }
+.navbar-brand {
+  font-family: 'Walter Turncoat', cursive;
+}

@@ -52,7 +52,6 @@ export class AboutComponent implements OnInit, AfterViewInit {
   }
   ngAfterViewInit(){
 
-    console.log(this.about.levelsOfAwesome);
   }
 
 

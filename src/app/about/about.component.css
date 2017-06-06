@@ -8,6 +8,9 @@ p {
 .about {
   font-size: 30px;
 }
+#profile {
+    width: 100%;
+}
 img {
     width: 200px;
 }
@@ -17,12 +20,15 @@ ul {
 }
 .socialIcons ul li {
     display: inline;
-    padding-left: 5px;
-    padding-right: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+   
     cursor: pointer;
 }
 ul li img {
-    width:30px;
+    width:50px;
+    margin-top:10px;
+    margin-bottom:10px;
 }
 .school {
   font-size: 20px;
@@ -50,8 +56,8 @@ ul li img {
   font-size: 20px;
 }
 .hobbies img {
-  width: 60px;
-  height: 50px;
+  width: 80px;
+  /*height: 50px;*/
   margin-bottom: 10px;
 }
 

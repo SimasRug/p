@@ -1,6 +1,6 @@
 <div class="row mt-5">
-  <div class="col  col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5 socialIcons px-5">
-    <img src="../../assets/img/temp-logo.png" alt="">
+  <div class="col  col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5 socialIcons px-5 text-center" >
+    <img id="profile" src="../../assets/img/profile.jpg" alt="">
     <ul class="mt-5">
       <li *ngFor="let socialIcon of socialIcons" (click)=onclick(socialIcon.link)>
           <img [src]="socialIcon.img" alt="" class="hvr-grow">
@@ -34,7 +34,7 @@
   <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 px-5">
     <h1>Hobbies</h1>
   </div>
-  <div *ngFor="let hobbie of about.hobbies" class="col col-4 col-sm-4 col-md-2 col-lg-2 col-xl-2 px-5 py-3 text-center">
+  <div *ngFor="let hobbie of about.hobbies" class="col col-5 col-sm-5 col-md-2 col-lg-2 col-xl-2 px-5 py-3 text-center">
     <img [src]="hobbie.img" alt="" class="hvr-grow">
     <br>
     {{hobbie.hobbie}}
