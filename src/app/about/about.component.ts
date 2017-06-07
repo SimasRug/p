@@ -27,7 +27,7 @@ export class AboutComponent implements OnInit, AfterViewInit {
       { tech:'CSS', skill:'87%', color:'#2965f1' },
       { tech:'JAVASCRIPT', skill:'95%', color:'#f0da50' },
       { tech:'ANGULARJS, IONIC', skill:'85%', color:'#c3002f' },
-      { tech:'ANGULAR, IONIC2', skill:'80%', color:'#df2e31' },
+      { tech:'ANGULAR, IONIC2', skill:'78%', color:'#df2e31' },
       { tech:'TYPESCRIPT', skill:'80%', color:'#007acc' },
       { tech:'PHP', skill:'75%', color:'#777bb4' },
       { tech:'PHOTOSHOP', skill:'83%', color:'#120f2a' },

@@ -1,9 +1,9 @@
 <h1 class="px-4 py-4">Code</h1>
 <div class="row px-4">
-  <div class="card-group ">
+  <div class="card-group text-center">
     <div class="card hvr-grow" *ngFor="let design of projects.code">
-        <img class="card-img-top" [src]="design.img" alt="Card image cap" (click)="onClick()">
-      <div class="card-block">
+        <img class="card-img-top" [src]="design.img" alt="Card image cap" (click)="onClick(design.link)">
+      <div class="card-block text-left">
         <h4 class="card-title"> {{design.title}} </h4>
         <p class="card-text"> {{design.description}} </p>
       </div>
@@ -13,10 +13,10 @@
 
 <h1 class="px-4">Desgin</h1>
 <div class="row px-4">
-  <div class="card-group ">
+  <div class="card-group text-center">
     <div class="card hvr-grow" *ngFor="let design of projects.designs">
       <img class="card-img-top" [src]="design.img" alt="Card image cap">
-      <div class="card-block">
+      <div class="card-block text-left">
         <h4 class="card-title"> {{design.title}} </h4>
         <p class="card-text"> {{design.description}} </p>
       </div>
@@ -24,11 +24,11 @@
   </div>
 </div>
 <h1 class="px-4 py-4">3D</h1>
-<div class="row  px-4">
-  <div class="card-group">
+<div class="row px-4">
+  <div class="card-group text-center">
     <div class="card hvr-grow" *ngFor="let design of projects.d">
       <img class="card-img-top" [src]="design.img" alt="Card image cap">
-      <div class="card-block">
+      <div class="card-block text-left">
         <h4 class="card-title"> {{design.title}} </h4>
         <p class="card-text"> {{design.description}} </p>
       </div>
@@ -36,13 +36,13 @@
   </div>
 </div>
 <h1 class="px-4 py-4">Video</h1>
-<div class="row">
-  <div class="card-group px-4">
+<div class="row px-4">
+  <div class="card-group text-center">
     <div class="card hvr-grow" *ngFor="let design of projects.video">
      <div class="embed-responsive embed-responsive-16by9">
         <iframe class="embed-responsive-item" [src]="photoURL(design.link)" allowfullscreen></iframe>
     </div>
-      <div class="card-block">
+      <div class="card-block text-left">
         <h4 class="card-title"> {{design.title}} </h4>
         <p class="card-text"> {{design.description}} </p>
       </div>

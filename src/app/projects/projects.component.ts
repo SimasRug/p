@@ -24,7 +24,7 @@ export class ProjectsComponent implements OnInit {
 
   projects = {
     code:[
-       { title:'Calculator', description:'A calculator application made with Angular 1', img:'../assets/img/projects/code/calculator.png' },
+       { title:'Calculator', description:'A calculator application made with Angular 1', img:'../assets/img/projects/code/calculator.png', link:'https://www.google.it/' },
        { title:'Pomodoro Clock', description:'Pomodoro clock application developed with Angular 1', img:'../assets/img/projects/code/pomodoro.png' },
        { title:'Tic Tac Toe', description:'Tic Tac Toe game where you play against AI made with Angular 1', img:'../assets/img/projects/code/tictac.png' },
        { title:'Driving Game', description:'A top down driving game developed using pure Javascript and HTML Canvas', img:'../assets/img/projects/code/driving.png' },
@@ -33,8 +33,10 @@ export class ProjectsComponent implements OnInit {
        { title:'Ping Pong', description:'A classic ping pong game made with pure Javascript and HTML Canvas', img:'../assets/img/projects/code/' },
        { title:'Brick Breaker', description:'Another classic game developed with HTML Canvas and Javascript', img:'../assets/img/projects/code/' },
        { title:'E-Shop', description:'A school project, usign Wordpress and various plugins a E-shop was developed', img:'../assets/img/projects/code/' },
-       { title:'Bleeper', description:'A school project, made a twitter copy usign jquery', img:'../assets/img/projects/code/c' },
-       { title:'Drone Prject', description:'A school project for DOM manipulation usifn jquery', img:'../assets/img/projects/code/' },
+       { title:'Bleeper', description:'A school project, made a twitter copy usign Jquery', img:'../assets/img/projects/code/c' },
+       { title:'Drone Prject', description:'A school project for DOM manipulation usifn Jquery', img:'../assets/img/projects/code/' },
+       { title:'Old Portfolio', description:'Previous portfolio project using Boostrap and Jquery', img:'../assets/img/projects/code/' },
+        { title:'Portfolio', description:'Current portfolio project made using Angular 4 and Bootstrap 4', img:'../assets/img/projects/code/' }
     ],
     designs: [
       { title:'Yeti', description:'A drawing of a yeti using Adobe Illiustrator', img:'../../assets/img/projects/design/yeti.png' },
@@ -73,6 +75,8 @@ export class ProjectsComponent implements OnInit {
   }
   onClick(link: string){
     window.open( link, '_blank' );
+    console.log(link);
+    
   }
 
 }
