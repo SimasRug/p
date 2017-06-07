@@ -1,0 +1,49 @@
+.images img {
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+}
+p {
+	font-size: 15px;
+	margin-top: 15px;
+}
+#header {
+	background-color: #E1BEE7;
+}
+#seeAll {
+	background-color: #E1BEE7;
+}
+#seeAll:hover {
+	transition: background-color 1s ease;
+	background-color: #BA68C8;
+}
+#seeOnline {
+	background-color: #69F0AE;
+}
+#seeOnline:hover {
+	transition: background-color 1s ease;
+	background-color: #00C853;
+}
+#seeOffline {
+	background-color: #80DEEA;
+}
+#seeOffline:hover {
+	transition: background-color 1s ease;
+	background-color: #26C6DA;
+}
+
+.online {
+	background-color: #69F0AE;
+	padding: 10px;
+	
+}
+.offline {
+	background-color: #80DEEA;
+	padding: 10px;
+	
+}
+
+a {
+	color:#000;
+}
+

@@ -1,0 +1,51 @@
+
+body{
+    background-color: #FFA726;
+    overflow-x:hidden;
+}
+#text {
+  margin-right: 10px;
+}
+#content-container {
+  width: 500px;
+  padding: 5px;
+  background-color: #292F36;
+  margin-top: 100px;
+  border-radius: 2%;
+  box-shadow: 1px 3px 3px #23272e;
+}
+#output {
+  font-family: 'Quicksand', sans-serif;
+  background-color: #C2BEA5;
+  margin-right: 15px !important;
+  margin-top: 10px;
+  width: 460px;
+  border-radius: 2%;
+  box-shadow: 1px 1px 1px #C2BEA5;
+  color: #292F36;
+  font-size: 40px;
+  text-align: right;
+  margin-bottom: 5px;
+}
+.sign-buttons {
+  margin-right: 20px !important;
+}
+.btn {
+  color: #fff;
+  width: 100px;
+  height: 80px;
+  font-size: 25px;
+  margin: 5px;
+  background-color: #23272e;
+  box-shadow: 1px 3px 3px #23272e;
+}
+.btn:hover {
+  color:#FC911E;
+}
+#equalsButton {
+  background-color: #FC911E;
+  box-shadow: 1px 1px 1px #FC911E;
+}
+#equalsButton:hover {
+  color: #23272e;
+}

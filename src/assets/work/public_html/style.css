@@ -1,0 +1,165 @@
+body{
+	font-family: 'Open Sans Condensed', sans-serif;
+	background-color: #A8CD1B;
+	color: #F3FAB6;
+}
+.navbar {
+	background-color: #005A31;
+	border:none;
+}
+.navbar.navbar-inverse .navbar-nav > li > a {
+  color: #F3FAB6; 
+  font-size: 35px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+.navbar.navbar-inverse .navbar-nav > li > a:hover {
+  color: #CBE32D;
+}
+@media (min-width: 768px) {
+  .navbar.navbar-inverse .navbar-nav {
+    display: table;
+    width: 100%;
+  }
+  .navbar.navbar-inverse .navbar-nav > li {
+    display: table-cell;
+    float: none;
+  }
+  .navbar.navbar-inverse .navbar-nav > li > a {
+    text-align: center;
+  }
+}
+.icon-bar {
+	color: #F3FAB6; 
+}
+.navbar-inverse .navbar-toggle {
+    border-color: #F3FAB6;
+}
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+    background-color: #A8CD1B;
+}
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form{
+	border-color: #F3FAB6
+}
+
+/*------------------ABOUT--------------*/
+
+#about {
+	margin-top: 180px;
+}
+#about img {
+	border: 3px solid #F3FAB6;
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+}
+#about p {
+	font-size: 33px;
+	padding-top: 50px;
+	font-weight: normal;	
+}
+.modal.and.carousel {
+  position: absolute; /*// Needed because the carousel overrides the position property*/
+}
+#portfolio {
+	margin-top: 120px;
+}
+#portfolio i {
+	font-size: 100px;
+	color: #F3FAB6;
+	margin-top: 40px;
+	
+}
+#portfolio a, #linkToCv {
+	color: #F3FAB6;
+	font-size: 30px;
+	text-decoration: none;
+
+}
+#portfolio a:hover {
+
+	color: #F3FAB6;
+}
+
+#portfolio a:before, #linkToCv:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #F3FAB6;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+#portfolio a:hover:before, #linkToCv:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(0.3);
+  transform: scaleX(0.3);
+}
+.modal.and.carousel {
+	position: fixed;
+}
+#contact {
+	margin-top: 120px;
+}
+#contact input, #contact textarea, #sucessMessage{
+	font-size: 30px;
+	color: #005A31;
+	margin-bottom: 20px;
+	width: 300px;
+}
+#contact textarea {
+	height: 150px;
+}
+#contact button {
+	margin-top: 20px;
+	background-color: #005A31;
+	width: 300px;
+	font-size:30px;
+}
+#contact button:hover {
+	color:#CBE32D !important;
+}
+#contact p {
+	font-size: 30px;
+}
+.redText::-webkit-input-placeholder {
+    color: red
+}
+#socialMedia {
+	margin-top: 80px;
+	font-size: 60px;
+	margin-bottom: 60px;
+	
+}
+#socialMedia a {
+	color: #F3FAB6;
+}
+#socialMedia a:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #F3FAB6;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+#socialMedia a:hover:before {
+	color: #005A31;
+  visibility: visible;
+  -webkit-transform: scaleX(0.3);
+  transform: scaleX(0.3);
+}
+.carousel-caption  {
+  background-color: rgba(0, 0, 0, 0.6);
+}

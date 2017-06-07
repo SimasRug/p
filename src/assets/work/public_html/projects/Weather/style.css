@@ -1,0 +1,26 @@
+body {
+	font-family: 'Anton', sans-serif;
+	color:white;
+	display: none;
+	
+}
+#head {
+	margin-top: 50px;
+}
+#temp, #bottom {
+	margin-top: 50px;
+	font-size: 25px;
+}
+#location {
+	font-size: 20px;
+}
+#CF,#FC {
+	color:gold;
+	cursor: pointer;
+}
+#FC {
+	display: none;
+}
+#tempF {
+	display: none;
+}

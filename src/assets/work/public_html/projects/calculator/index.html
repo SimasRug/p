@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+  </head>
+  <body ng-app="app">
+    <div  class="com-md-12 col-xs-12 col-md-offset-3 col-xs-offset-3">
+      <div ng-controller="primaryController" id="content-container">
+        <div id="output" class="pull-right"><span id="text">{{output}}</span></div>
+        <div class="row">
+          <div class="col-md-8 col-xs-8">
+            <div class="col-md-4 col-xs-4 button containers">
+              <button class="btn button-primary pull-left" ng-click="clearValues()">{{signs.clear}}</button>
+            </div>
+            <div class="col-md-4 col-xs-4 button containers">
+              <button class="btn button-primary pull-left" ng-click="getOperator(signs.percent)">{{signs.percent}}</button>
+            </div>
+            <div class="col-md-4 col-xs-4 button containers">
+              <button class="btn button-primary pull-left" ng-click="numberInput(vars.plusMinus)">{{vars.plusMinus}}</button>
+            </div>
+            <div class="col-md-4 col-xs-4 button containers" ng-repeat="var in vars | myLimitTo: 11">
+              <button class="btn button-primary pull-left" ng-click="numberInput(var)">{{var}}</button>
+            </div>
+            <div class="col-md-4 col-xs-4 button containers">
+              <button id="equalsButton" class="btn button-primary pull-left" ng-click="countResult()">{{signs.equals}}</button>
+            </div>
+          </div>
+          <div class="col-md-4 col-xs-4 ">
+            <div ng-repeat="sign in signs | myLimitTo: 4">
+              <button class="btn button-primary pull-right sign-buttons" ng-click="getOperator(sign)">{{sign}}</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </body>
+</html>

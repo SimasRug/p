@@ -1,0 +1,69 @@
+body {
+  background-color:#1565C0 !important;
+  color: #E3F2FD !important;
+   overflow-x: hidden;
+}
+#centerThis {
+  -webkit-box-align:center;
+    -webkit-box-pack:center;
+    display:-webkit-box;
+    margin-top: 100px;
+}
+.circle {
+  /*float: right;*/
+  height: 100px;
+  width: 100px;
+  border: 3px solid #E3F2FD;
+  border-radius: 100%;
+  text-align: center;
+  padding-top: 35px;
+  font-size: 20px;
+  margin: 0px;
+}
+.circle a {
+  color: #E3F2FD;
+    text-decoration: none;
+}
+.circle a:hover {
+  color: #E3F2FD;
+    text-decoration: none;
+}
+.circle a:active, .circle a:focus, .circle a:visited {
+      color: #E3F2FD;
+    text-decoration: none;
+}
+
+#right {
+  float: left;
+}
+#left {
+  float: right;
+}
+#middle {
+  margin:0 auto;
+}
+.c100 > span {
+  color: #E2F2FD !important;
+}
+.c100:after {
+  background-color: #1565C0 !important;
+}
+.c100 {
+  background-color: #1565C0 !important;
+}
+.pie, .c100 .bar, .c100.p51 .fill, .c100.p52 .fill, .c100.p53 .fill, .c100.p54 .fill, .c100.p55 .fill, .c100.p56 .fill, .c100.p57 .fill, .c100.p58 .fill, .c100.p59 .fill, .c100.p60 .fill,
+.c100.p61 .fill, .c100.p62 .fill, .c100.p63 .fill, .c100.p64 .fill, .c100.p65 .fill, .c100.p66 .fill, .c100.p67 .fill, .c100.p68 .fill, .c100.p69 .fill, .c100.p70 .fill, .c100.p71 .fill,
+.c100.p72 .fill, .c100.p73 .fill, .c100.p74 .fill, .c100.p75 .fill, .c100.p76 .fill, .c100.p77 .fill, .c100.p78 .fill, .c100.p79 .fill, .c100.p80 .fill, .c100.p81 .fill, .c100.p82 .fill,
+ .c100.p83 .fill, .c100.p84 .fill, .c100.p85 .fill, .c100.p86 .fill, .c100.p87 .fill, .c100.p88 .fill, .c100.p89 .fill, .c100.p90 .fill, .c100.p91 .fill, .c100.p92 .fill, .c100.p93 .fill,
+  .c100.p94 .fill, .c100.p95 .fill, .c100.p96 .fill, .c100.p97 .fill, .c100.p98 .fill, .c100.p99 .fill, .c100.p100 .fill {
+  border: 0.08em solid #E2F2FD !important;
+}
+#reset {
+  margin-right: 30px;
+  padding-top: 20px;
+}
+
+#reset{
+    color: #E3F2FD;
+      text-decoration: none;
+}

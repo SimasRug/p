@@ -1,0 +1,37 @@
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+h1,a {
+	margin-top: 50px;
+	color:#E7DFDD ;
+	margin-bottom: 20px;
+}
+input {
+	height: 30px;
+	border: none;
+}
+button {
+	background-color: #A239CA !important; 
+	border-color: #A239CA !important;
+	color:#E7DFDD !important;
+	font-size: 20px !important;
+}
+a:hover {
+	color:#E7DFDD ;	
+	text-decoration: none;
+}
+body {
+	background-color: #0E0B16;
+}
+.addedCont {
+	background-color: #E7DFDD;
+	margin-bottom:20px;
+}
+.addedCont a {
+		color: #0E0B16;
+
+}
+#random {
+	margin-bottom: 20px;
+}

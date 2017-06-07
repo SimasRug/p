@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta name="description" content="Simonas Rugevicius portfolio website">
+	<title>Simonas</title>
+</head>
+<body>
+
+	<div class="container">
+		<nav class="navbar navbar-inverse navbar-fixed-top " role="navigation">
+			<div class="container">
+
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-nav" aria-expanded="false">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				</div>
+
+				<div class="collapse navbar-collapse" id="bs-nav">
+					<ul class="nav navbar-nav">
+						<li><a href="#about">About</a>
+						</li>
+						<li><a href="#portfolio">Portfolio</a>
+						</li>
+						<li><a href="#contact">Contact</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<div class="row text-center" id="about">
+			<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 pull-right">
+				<img src="http://i.imgur.com/YXdWU1U.png">  <!--Uncoment THIS!!!! -->
+			</div>
+			<div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 text-center">
+				<p>Web Developer, Designer, Video maker, with practical knowledge in all of these fields. My strengths lie in Front-End development, nevertheless I'm devoted to strive as a full STACK developer.</br><br>
+					<a  id="linkToCv" href="https://drive.google.com/open?id=0BwQ-gX_T_GryaXZZWi1nNTJvcnc" target="_blank" title="">To see more Check out my CV.</a></p>
+
+				</div>
+
+			</div>
+			<div class="row text-center" id="portfolio">
+				<div class="col-xs-6 col-sm-3 col-md-3 col-lg-3 ">
+					<a href="#code" data-toggle="modal"><i class="fa fa-code" aria-hidden="true"></i></br>Code</a>
+				</div>
+				<div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
+					<a href="#design" data-toggle="modal"><i class="fa fa-pencil" aria-hidden="true"></i></br>Design</a>
+				</div>
+				<div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
+					<a href="#3D" data-toggle="modal" data-slide-to="0"><i class="fa fa-cubes" aria-hidden="true"></i></br>3D</a>
+				</div>
+				<div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
+					<a href="#video" data-toggle="modal" data-slide-to="15"><i class="fa fa-video-camera" aria-hidden="true"></i></br>Video</a>
+				</div>
+			</div>
+			<!-- CONTACT ME PART -->
+
+			<div class="row text-center" id="contact">
+
+				<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 pull-right">
+					<p>Cought your attention? Interested you? Confused you? Great!! Don't hesitate to contact me. I'll come back to you as soon as possible.<br><br><br></p>
+					<p>Email: Simonas.Rugevicius@gmail.com <br>
+					Mobile: +4550305395
+					</p>
+				</div>
+				<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+					<input type="text" name="name" placeholder="Name" id="name"> </br>
+					<input type="email" name="email" placeholder="Email" id="email"></br>
+					<input type="text" name="name" placeholder="Number" id="number"></br>
+					<textarea type="text" placeholder="Message" id="message"></textarea></br>
+					<span id="sucessMessage"></span>
+					<button class="btn" id="send">SEND MESSAGE</button>
+				</div>
+			</div>
+
+			<div class="row text-center" id="socialMedia">
+				<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+
+					<a target='_blank' href="https://www.facebook.com/simas.rug"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+
+				</div>
+				<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+					<a  target='_blank' href="https://twitter.com/SimasRug"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+				</div>
+				<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+					<a target='_blank' href="https://www.linkedin.com/in/simonas-rugevicius-4267469b?trk=hp-identity-name"><i class="fa fa-linkedin" aria-hidden="true"></i></i></a>
+				</div>
+				<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+					<a target='_blank' href="https://github.com/SimasRug"><i class="fa fa-github" aria-hidden="true"></i></a>
+				</div>
+
+
+			</div>
+
+
+
+			<!--  CARUSEL MODAL FOR VIDEO -->
+			<div class="modal fade and carousel slide" id="video">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-body">
+							<ol class="carousel-indicators">
+								<li data-target="#video" data-slide-to="0" class="active"></li>
+								<li data-target="#video" data-slide-to="1"></li>
+								<li data-target="#video" data-slide-to="2"></li>
+							</ol>
+							<div class="carousel-inner">
+								<div class="item active">
+									<embed width="100%" height="500px" name="plugin" id="plugin" src="https://www.youtube.com/v/QLKDGpgqizg" type="application/x-shockwave-flash" title="Adobe Flash Player">
+									</div>
+									<div class="item">
+										<embed width="100%" height="500px" name="plugin" id="plugin" src="https://www.youtube.com/v/GnQ2_eCbuUc" type="application/x-shockwave-flash">
+										</div>
+										<div class="item">
+											<embed width="100%" height="500px" name="plugin" id="plugin" src="https://www.youtube.com/v/XrupJcCSgOs" type="application/x-shockwave-flash">
+											</div>
+										</div><!-- /.carousel-inner -->
+										<a class="left carousel-control" href="#video" role="button" data-slide="prev">
+											<span class="glyphicon glyphicon-chevron-left"></span>
+										</a>
+										<a class="right carousel-control" href="#video" role="button" data-slide="next">
+											<span class="glyphicon glyphicon-chevron-right"></span>
+										</a>
+									</div><!-- /.modal-body -->
+								</div><!-- /.modal-content -->
+							</div><!-- /.modal-dialog -->
+						</div><!-- /.modal -->
+
+						<!--  CARUSEL MODAL FOR 3D -->
+						<div class="modal fade and carousel slide" id="3D">
+							<div class="modal-dialog">
+								<div class="modal-content">
+									<div class="modal-body">
+										<ol class="carousel-indicators">
+											<li data-target="#3D" data-slide-to="0" class="active"></li>
+											<li data-target="#3D" data-slide-to="1"></li>
+											<li data-target="#3D" data-slide-to="2"></li>
+											<li data-target="#3D" data-slide-to="3"></li>
+											<li data-target="#3D" data-slide-to="4"></li>
+											<li data-target="#3D" data-slide-to="5"></li>
+											<li data-target="#3D" data-slide-to="6"></li>
+											<li data-target="#3D" data-slide-to="7"></li>
+											<li data-target="#3D" data-slide-to="8"></li>
+										</ol>
+										<div class="carousel-inner">
+											<div class="item active">
+												<img src="http://i.imgur.com/RVJNvkf.jpg" alt="First slide">
+											</div>
+											<div class="item">
+												<img src="http://i.imgur.com/VPctott.jpg" alt="Second slide">
+											</div>
+											<div class="item">
+												<img src="http://i.imgur.com/yMo1WEY.jpg" alt="Third slide">
+								<!-- <div class="carousel-caption"><p>even with captions...</p></div>
+							</div> -->
+						</div><!-- /.carousel-inner -->
+						<div class="item">
+							<img src="http://i.imgur.com/8ZhVBnr.jpg" alt="">
+						</div>
+						<div class="item">
+							<img src="http://i.imgur.com/nIoWOU0.jpg" alt="">
+						</div>
+						<div class="item">
+							<img src="http://i.imgur.com/I06Avus.jpg" alt="">
+						</div>
+						<div class="item">
+							<img src="http://i.imgur.com/OTlkeqz.jpg" alt="">
+						</div>
+						<div class="item">
+							<img src="http://i.imgur.com/BlueYZX.jpg" alt="">
+						</div>
+						<div class="item">
+							<img src="http://i.imgur.com/XLkx0O8.jpg" alt="">
+						</div>
+
+						<a class="left carousel-control" href="#3D" role="button" data-slide="prev">
+							<span class="glyphicon glyphicon-chevron-left"></span>
+						</a>
+						<a class="right carousel-control" href="#3D" role="button" data-slide="next">
+							<span class="glyphicon glyphicon-chevron-right"></span>
+						</a>
+					</div><!-- /.modal-body -->
+				</div><!-- /.modal-content -->
+			</div><!-- /.modal-dialog -->
+		</div><!-- /.modal -->
+	</div>
+
+	<!-- FOR DESIGN -->
+	<div class="modal fade and carousel slide" id="design">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-body">
+					<ol class="carousel-indicators">
+						<li data-target="#design" data-slide-to="0" class="active"></li>
+						<li data-target="#design" data-slide-to="1"></li>
+						<li data-target="#design" data-slide-to="2"></li>
+					</ol>
+					<div class="carousel-inner">
+						<div class="item active">
+							<img src="http://i.imgur.com/G3h7IyO.png" alt="First slide">
+						</div>
+						<div class="item">
+							<img src="http://i.imgur.com/cnES4CZ.png" alt="Second slide">
+						</div>
+						<div class="item">
+							<img src="http://i.imgur.com/EOzBWNu.jpg" alt="Third slide">
+								<!-- <div class="carousel-caption"><p>even with captions...</p></div>
+							</div> -->
+						</div><!-- /.carousel-inner -->
+						<a class="left carousel-control" href="#design" role="button" data-slide="prev">
+							<span class="glyphicon glyphicon-chevron-left"></span>
+						</a>
+						<a class="right carousel-control" href="#design" role="button" data-slide="next">
+							<span class="glyphicon glyphicon-chevron-right"></span>
+						</a>
+					</div><!-- /.modal-body -->
+				</div><!-- /.modal-content -->
+			</div><!-- /.modal-dialog -->
+		</div><!-- /.modal -->
+	</div>
+
+
+	<!-- for code -->
+	<div class="modal fade and carousel slide" id="code">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-body">
+					<ol class="carousel-indicators">
+						<li data-target="#code" data-slide-to="0" class="active"></li>
+						<li data-target="#code" data-slide-to="1"></li>
+						<li data-target="#code" data-slide-to="2"></li>
+						<li data-target="#code" data-slide-to="3"></li>
+						<li data-target="#code" data-slide-to="4"></li>
+						<li data-target="#code" data-slide-to="5"></li>
+						<li data-target="#code" data-slide-to="6"></li>
+						<li data-target="#code" data-slide-to="7"></li>
+						<li data-target="#code" data-slide-to="8"></li>
+						<li data-target="#code" data-slide-to="9"></li>
+						<li data-target="#code" data-slide-to="10"></li>
+						<li data-target="#code" data-slide-to="11"></li>
+					</ol>
+					<div class="carousel-inner">
+						<div class="item active">
+							<a href="projects/calculator" target="_blank"><img src="http://imgur.com/vjIO0F3.png" alt="First slide"></a>
+							<div class="carousel-caption"><p>A simple calculator made with AngularJs</p></div>
+						</div>
+						<div class="item ">
+							<a href="projects/pomodoro" target="_blank"><img src="http://imgur.com/QVUGGqD.png" alt="First slide"></a>
+							<div class="carousel-caption"><p>A pomodoro clock created with AngularJS</p></div>
+						</div>
+						<div class="item ">
+							<a href="projects/tictac" target="_blank"><img src="http://imgur.com/pi3aGnc.png" alt="First slide"></a>
+							<div class="carousel-caption"><p>A tick tack toe game created with AngularJS</p></div>
+						</div>
+						<div class="item">
+							<a href="projects/CarGame" target="_blank"><img src="http://i.imgur.com/sZRWvhA.png" alt="First slide"></a>
+							<div class="carousel-caption"><p>A top down Racing game made with html canvas and javascript</p></div>
+						</div>
+						<div class="item">
+							<a href="projects/Weather" target="_blank"><img src="http://imgur.com/YzfqTPd.png" alt="Third slide"></a>
+							<div class="carousel-caption"><p>A Project showing your local weather and time of day</p></div>
+						</div><!-- /.carousel-inner -->
+						<div class="item">
+							<a href="projects/vikipedia_reader" target="_blank"><img  src="http://imgur.com/8XquTlC.png" alt="Third slide"></a>
+							<div class="carousel-caption"><p>A wikipedia reader using vikipedia API</p></div>
+						</div><!-- /.carousel-inner -->
+						<!-- <div class="item">
+							<a href="projects/twich_stream" target="_blank"><img  src="http://imgur.com/6ytZN4X.png" alt="Third slide"></a>
+							<div class="carousel-caption"><p>A twich stream project that uses Twich API to see who's streaming and what they are streaming </p></div>
+						</div><!-- /.carousel-inner --> -->
+						<div class="item">
+							<a href="projects/PingPong.html" target="_blank"><img src="http://i.imgur.com/ea7NIEI.png" alt="Second slide"></a>
+							<div class="carousel-caption"><p>A clasic ping pong game using html canvas and javascript</p></div>
+
+						</div>
+						<div class="item">
+							<a href="projects/BrickBreaker.html" target="_blank"><img src="http://i.imgur.com/y2dZ38s.png" alt="Third slide"></a>
+							<div class="carousel-caption"><p>A clasic brick breaker game using html canvas and javascript</p></div>
+						</div>
+						<div class="item">
+							<a href="http://igalerija.andriekuspaulius.com/" target="_blank"><img src="http://i.imgur.com/YyIuVYi.png" alt="Third slide"></a>
+							<div class="carousel-caption"><p>A School project, WebShop using wordpress and costum styling </p></div>
+						</div>
+						<div class="item">
+							<a href="projects/Bleeper" target="_blank"><img src="http://i.imgur.com/m7ZGHX7.png" alt="Third slide"></a>
+							<div class="carousel-caption"><p>A School project, a Twitter like social media page, using jquery, PHP, third party API and costum API's </p></div>
+						</div>
+
+						<div class="item">
+							<a href="projects/Drone" target="_blank"><img src="http://i.imgur.com/vdwt2hi.png" alt="Third slide"></a>
+							<div class="carousel-caption"><p>A School procject, flying drone imitation, using jquery</p></div>
+
+						</div><!-- /.carousel-inner -->
+
+						<a class="left carousel-control" href="#code" role="button" data-slide="prev">
+							<span class="glyphicon glyphicon-chevron-left"></span>
+						</a>
+						<a class="right carousel-control" href="#code" role="button" data-slide="next">
+							<span class="glyphicon glyphicon-chevron-right"></span>
+						</a>
+					</div><!-- /.modal-body -->
+				</div><!-- /.modal-content -->
+			</div><!-- /.modal-dialog -->
+		</div><!-- /.modal -->
+	</div>
+	<!--  -->
+</div>
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-63677102-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>
